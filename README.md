@@ -55,5 +55,35 @@ Features with p-value > 0.05 → dropped (not statistically significant)
 
 ### Data Visualisation
 
-#### Co relation Heat Map
+#### Correlation Heat Map
 ![alt text](image.png)
+
+#### Distribution of Age
+![alt text](image-2.png)
+
+#### Distribution of Gender
+![alt text](image-1.png)
+
+#### Distribution of Education
+![alt text](image-3.png)
+
+#### Distribution of Marital Status
+![alt text](image-4.png)
+
+#### Distribution of Approved Flag
+![alt text](image-9.png)
+
+#### Distribution of Age_Newest_TL
+![alt text](image-6.png)
+
+#### DIstribution of Oldest_Newest_TL
+![alt text](image-7.png)
+
+#### DIstribution of Credit Score
+![alt text](image-8.png)
+
+#### Statistics for Credit_Score with respect to Approved_Flag
+![alt text](image-12.png)
+
+#### Statistics for Credit_Score with respect to Approved_Flag
+![alt text](image-13.png)
