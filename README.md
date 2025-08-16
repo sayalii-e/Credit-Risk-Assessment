@@ -56,44 +56,58 @@ Features with p-value > 0.05 → dropped (not statistically significant)
 ### Data Visualisation
 
 #### Correlation Heat Map
-![alt text](image.png)
+![alt text](Graphs/image.png)
 
 #### Distribution of Age
-![alt text](image-2.png)
+![alt text](Graphs/image-2.png)
 
 #### Distribution of Gender
-![alt text](image-1.png)
+![alt text](Graphs/image-1.png)
 
 #### Distribution of Education
-![alt text](image-3.png)
+![alt text](Graphs/image-3.png)
 
 #### Distribution of Marital Status
-![alt text](image-4.png)
+![alt text](Graphs/image-4.png)
 
 #### Distribution of Approved Flag
-![alt text](image-9.png)
+![alt text](Graphs/image-9.png)
 
 #### Distribution of Age_Newest_TL
-![alt text](image-6.png)
+![alt text](Graphs/image-6.png)
 
 #### DIstribution of Oldest_Newest_TL
-![alt text](image-7.png)
+![alt text](Graphs/image-7.png)
 
 #### DIstribution of Credit Score
-![alt text](image-8.png)
+![alt text](Graphs/image-8.png)
 
 #### First Product Enquiry
-![alt text](image-14.png)
+![alt text](Graphs/image-14.png)
 
 #### Statistics for Credit_Score with respect to Approved_Flag
-![alt text](image-12.png)
+![alt text](Graphs/image-12.png)
 
 #### Statistics for Credit_Score with respect to Approved_Flag
-![alt text](image-13.png)
+![alt text](Graphs/image-13.png)
 
-### Observations
+### Model Comparision
 
-- Credit Score shows the highest correlation with Approved_Flag
-- Most loan applicants are working-age adults between the range 25–40
-- More male applicated compared to female applicants
-- Tradeline age visualizations reveal that low-risk individuals (P1/P2) often have longer credit histories
+#### Random Forest Model (With Credit Score)
+- Accuracy : 99.17%
+
+#### Random Forest Model (Without Credit Score)
+- Accuracy : 78.28%
+
+#### XGBoost Model (With Credit Score)
+-Accuracy: 99.50%
+
+#### XGBoost Model (Without Credit Score)
+-Accuracy: 78.89%
+
+### MOdel Training
+
+**XGBoost with Hyperparameter Tuning**
+
+- Hyperparameter tuning is the process of finding the best combination of hyperparameters for a machine learning model to maximize its performance
+- BayesSearchCV : Smartly chooses hyperparameters based on past results to improve performance
