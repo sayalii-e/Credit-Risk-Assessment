@@ -82,8 +82,18 @@ Features with p-value > 0.05 → dropped (not statistically significant)
 #### DIstribution of Credit Score
 ![alt text](image-8.png)
 
+#### First Product Enquiry
+![alt text](image-14.png)
+
 #### Statistics for Credit_Score with respect to Approved_Flag
 ![alt text](image-12.png)
 
 #### Statistics for Credit_Score with respect to Approved_Flag
 ![alt text](image-13.png)
+
+### Observations
+
+- Credit Score shows the highest correlation with Approved_Flag
+- Most loan applicants are working-age adults between the range 25–40
+- More male applicated compared to female applicants
+- Tradeline age visualizations reveal that low-risk individuals (P1/P2) often have longer credit histories
