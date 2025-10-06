@@ -100,12 +100,12 @@ Features with p-value > 0.05 → dropped (not statistically significant)
 - Accuracy : 78.28%
 
 #### XGBoost Model (With Credit Score)
--Accuracy: 99.50%
+- Accuracy: 99.50%
 
 #### XGBoost Model (Without Credit Score)
--Accuracy: 78.89%
+- Accuracy: 78.89%
 
-### MOdel Training
+### Model Training
 
 **XGBoost with Hyperparameter Tuning**
 
